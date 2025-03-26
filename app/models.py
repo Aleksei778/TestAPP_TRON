@@ -16,6 +16,3 @@ class TronAddressQuery(Base):
     balance_trx = Column(Float, nullable=False) # "TRX" - основная криптовалюта блокчейна TRX
     
     created_at = Column(DateTime, nullable=False, default=dt.utcnow)
-
-
-    

@@ -7,3 +7,6 @@ asyncpg
 psycopg2-binary
 tronpy
 httpx
+alembic
+python-dotenv
+pytest-asyncio
